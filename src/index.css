@@ -1,0 +1,104 @@
+.html {
+    scroll-behavior: smooth;
+}
+
+.navbar-icon {
+    width: 246px;
+    height: 72px;
+    margin-left: 500px;
+    margin-top: 40px;
+    padding: 0;
+    margin-right: 300px;
+}
+
+.navbar {
+    height: 166px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+    display: flex;
+    justify-items: space-between;
+    background-color: white;
+    padding: 0px 0px;
+}
+
+.navbar-text {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 8px;
+}
+
+.roadmap-link, .discord-link, .instagram-link, .twitter-link, .utility-link {
+    color: black;
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.roadmap-link:hover, .discord-link:hover, .instagram-link:hover, .twitter-link:hover, .utility-link:hover {
+    background-color: slategrey;
+    color: azure;
+    padding: 8px;
+}
+
+.main-gif {
+    height: 500px;
+    margin-top: 175px;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+    font-family: 'Rubik', sans-serif;
+    margin: auto;
+    max-width: 1200px;
+    font-size: larger;
+}
+
+.welcome-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.welcome-text {
+    margin-bottom: 50px;
+}
+
+.mhc-title--2 {
+    font-size: 40px;
+}
+
+.ribbon-image {
+    position: relative;
+}
+
+.why-text--2 {
+    margin-bottom: 50px;
+}
+
+.pie-chart {
+    width: 600px;
+    margin-left: 65px;
+}
+
+.meet-the--team {
+    position: relative;
+}
+
+.developer-tab {
+    margin-bottom: 50px;
+}
+
+.heart-image {
+    margin-bottom: 50px;
+}
